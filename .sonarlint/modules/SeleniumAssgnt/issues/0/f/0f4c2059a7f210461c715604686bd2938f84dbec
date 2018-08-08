@@ -1,8 +1,0 @@
-
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ªÂÖæøÿÿÿÿ
-hsquid:S1132"LMove the "Africa" string literal on the left side of this string comparison.(ùâ¶ªşÿÿÿÿ
-Qsquid:S1118
-":Add a private constructor to hide the implicit public one.(ıÎÁ
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿ•¿
-Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ

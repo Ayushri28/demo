@@ -1,20 +1,0 @@
-
-W
-squid:S1068";Replace this usage of System.out or System.err by a logger.(»Öæv8Èš…˜Ñ,
-Dsquid:S1481"&Remove this unused "j" local variable.(¼İ™¡8î„ÿ—Ñ,
-Ssquid:S1854"5Remove this useless assignment to local variable "c".(¼İ™¡8î„ÿ—Ñ,
-=squid:S1659"Declare "c" on a separate line.(¼İ™¡8ÊÙì–Ñ,
-=squid:S1659"Declare "k" on a separate line.(¼İ™¡8ò€—Ñ,
-[squid:S1197*"8Move the array designator from the variable to the type.(‚Ô³ìüÿÿÿÿ8î„ÿ—Ñ,
-]
-squid:S106@";Replace this usage of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ8ëïì—Ñ,
-Dsquid:S1481"&Remove this unused "c" local variable.(¼İ™¡8î„ÿ—Ñ,
-Dsquid:S1481"&Remove this unused "k" local variable.(¼İ™¡8ç³Á—Ñ,
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(‰‘÷úÿÿÿÿ
-nsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÚğ
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯¤ôË8êàÎ—Ñ,
-Ssquid:S1854"5Remove this useless assignment to local variable "j".(¼İ™¡8î„ÿ—Ñ,
-|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„„ùÿÿÿÿ8ğÏÉ–Ñ,
-Ssquid:S1854"5Remove this useless assignment to local variable "k".(¼İ™¡8êàÎ—Ñ,
-W
-squid:S106C";Replace this usage of System.out or System.err by a logger.(ÏÖøE8ã°Ï—Ñ,

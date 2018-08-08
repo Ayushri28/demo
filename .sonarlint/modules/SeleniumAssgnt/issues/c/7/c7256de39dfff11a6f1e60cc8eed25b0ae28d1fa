@@ -1,14 +1,0 @@
-
-isquid:S1192"FDefine a constant instead of duplicating this literal "email" 3 times.(õÕ¢îøÿÿÿÿ8Š˜¢“Ñ,
-nsquid:S1132"PMove the "9040290007" string literal on the left side of this string comparison.(Áúç8Š˜¢“Ñ,
-]
-squid:S106";Replace this usage of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8Š˜¢“Ñ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(·ß8Š˜¢“Ñ,
-]
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÃĞÀéüÿÿÿÿ8Š˜¢“Ñ,
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(¥É¾ê8Š˜¢“Ñ,
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(Ãğ›ÿÿÿÿÿ
-X
-squid:S106";Replace this usage of System.out or System.err by a logger.(ˆ‰áÀ8Š˜¢“Ñ,

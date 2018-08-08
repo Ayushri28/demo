@@ -1,9 +1,0 @@
-
-Hsquid:S1481"*Remove this unused "count" local variable.(æÕ¿¼8Àó×üĞ,
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(úæ»¼
-nsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÚğ
-]
-squid:S106'";Replace this usage of System.out or System.err by a logger.(•€À¥ùÿÿÿÿ8äîÙüĞ,
-k
-squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ˆ½º8Àó×üĞ,
-|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„„ùÿÿÿÿ8‹‘ÆüĞ,

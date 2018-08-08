@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<head>
+<title></title>
+</head>
+
+<style>
+h1{
+  font-color:blue;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+
+
+function getdetails(){
+
+
+ var idorphone= $("input[name='add']:checked").val();
+ alert(idorphone);
+ var addby= $("#addby").val();
+ var tstname= $("#tstname").val();
+ 
+ $.ajax({
+      type : "POST",
+	  url : "/getResponse",
+	  data : { addbyKey : addby, tstnameKey : tstname , idorphoneKey : idorphone},
+	  datatype : "json",
+	  success : function(response){
+	              alert("Inserted successfully"+response);
+				  },
+	  failure : function(response){
+	             alert("failed");
+				 }
+
+          });
+  }
+  
+  
+</script>
+<body>
+
+<h1 style="color:blue;"><center>ADD DIAGNOSTIC TESTS</center></h1>
+<br>
+<br>
+<br>
+<h2>Fetch by email or Phone : </h2>
+<form>
+<input type="radio" name="add" value="email">Email<br>
+<input type="radio" name="add" value="phone">Phone<br>
+<input type="text" name="addtest"  placeholder="enter email or phone" id="addby">
+
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<input type="text" name="addtest" placeholder="enter test name" id="tstname">
+<input type="button"  value="add test" onclick="getdetails()">
+</form>
+</body>
+
+</html>
+

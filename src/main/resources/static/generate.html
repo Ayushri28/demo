@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<head>
+<title></title>
+</head>
+
+<style>
+h1{
+  font-color:blue;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+function getdetails(){
+
+ var idorphone= $("input[name='add']:checked").val();
+ 
+
+ var generateby= $("#addby").val();
+ 
+ var tstdate= $("#tstdate").val();
+ alert(tstdate);
+ $.ajax({
+      type : "POST",
+	  url : "/getReport",
+	  data : { generatebyKey : generateby, tstdateKey : tstdate , idorphoneKey : idorphone },
+	  datatype : "json",
+	  success : function(response){
+	              $("#rep").html(response);
+				  },
+	  failure : function(response){
+	             alert("failed");
+				 }
+
+          });
+  }
+  
+  
+</script>	
+<body>
+<h1 style="color:blue;"><center>GENERATE REPORT</center></h1>
+<br>
+<br>
+<br>
+
+<h2>Fetch by email or Phone : </h2>
+<form>
+<input type="radio" name="add" value="email">Email<br>
+<input type="radio" name="add" value="phone">Phone<br>
+<input type="text" name="addtest"  placeholder="enter email or phone" id="addby">
+
+<br>
+
+<input type="text" name="addtest" placeholder="enter test date" id="tstdate"><br>
+<input type="button"  value="ViewRep" onclick="getdetails()">
+</form>
+<div id="rep"></div>
+
+</body>
+
+</html>

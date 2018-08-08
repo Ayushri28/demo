@@ -1,0 +1,6 @@
+projectKey=MyWebApp
+serverUrl=http://localhost:8081
+serverVersion=7.1.0.11001
+dashboardUrl=http://localhost:8081/dashboard/index/MyWebApp
+ceTaskId=AWUUEq9EfVnyO6hGRRfI
+ceTaskUrl=http://localhost:8081/api/ce/task?id=AWUUEq9EfVnyO6hGRRfI

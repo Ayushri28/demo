@@ -1,15 +1,0 @@
-
-Vsquid:S1197"8Move the array designator from the variable to the type.(åñâ8Ö¦£ùĞ,
-Msquid:S1066"/Merge this if statement with the enclosing one.(¦‡õò8Ö¦£ùĞ,
-[squid:S1197"8Move the array designator from the variable to the type.(¶–¾îùÿÿÿÿ8Ö¦£ùĞ,
-Msquid:S1066"/Merge this if statement with the enclosing one.(‡”ù¡8Ö¦£ùĞ,
-k
-squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(‡”ù¡8Ö¦£ùĞ,
-W
-squid:S106&";Replace this usage of System.out or System.err by a logger.(şÍò_8›ü®ùĞ,
-]
-squid:S106(";Replace this usage of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8›ü®ùĞ,
-psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8šÃ©ùĞ,
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(Îˆıÿÿÿÿ
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ª‘¾¼şÿÿÿÿ8Àš°ùĞ,
-nsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÚğ

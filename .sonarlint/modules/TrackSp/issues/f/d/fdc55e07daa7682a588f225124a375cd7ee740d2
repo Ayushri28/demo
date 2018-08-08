@@ -1,6 +1,0 @@
-
-nsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÚğ
-csquid:S2134"EStop extending the Thread class as the "run" method is not overridden(–òíÔ8‡âŒûĞ,
-]
-squid:S106";Replace this usage of System.out or System.err by a logger.(ú·˜ıÿÿÿÿ8‡âŒûĞ,
-ƒsquid:S1217	"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(¤Æ•¼şÿÿÿÿ8‡âŒûĞ,
