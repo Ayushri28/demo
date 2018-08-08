@@ -1,0 +1,30 @@
+
+ysquid:S2159/"VRemove this call to "equals"; comparisons between unrelated types always return false.(Î‡®şüÿÿÿÿ8¼¼™Ñ,
+Psquid:S1118":Add a private constructor to hide the implicit public one.(ô­§Z
+ squid:ForLoopCounterChangedChecka"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿Š£ıÿÿÿÿÿ8¤¤öĞ,
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ıºøüĞ,
+ysquid:S2159#"VRemove this call to "equals"; comparisons between unrelated types always return false.(ˆÁİ´øÿÿÿÿ8ûîÉ™Ñ,
+Msquid:S1481"*Remove this unused "input" local variable.(Úî¿òøÿÿÿÿ8î­ÊşĞ,
+‹ squid:ForLoopCounterChangedCheck*"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ß‘ç™Ñ,
+Vsquid:UselessParenthesesCheckY"!Remove those useless parentheses.(â‰—šşÿÿÿÿ8¤¤öĞ,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„„ùÿÿÿÿ8¤¤öĞ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆˆ¥ö8¤¤öĞ,
+ysquid:S2159#"VRemove this call to "equals"; comparisons between unrelated types always return false.(ˆÁİ´øÿÿÿÿ8ûîÉ™Ñ,
+nsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(òÿÙ€üÿÿÿÿ8È¥üĞ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àÎ˜õ8¤¤öĞ,
+j
+squid:S134W"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(Œ®é38†¦šÑ,
+\squid:S1854"9Remove this useless assignment to local variable "input".(Úî¿òøÿÿÿÿ8î­ÊşĞ,
+psquid:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘8™·—™Ñ,
+ysquid:S2159#"VRemove this call to "equals"; comparisons between unrelated types always return false.(ˆÁİ´øÿÿÿÿ8øô£™Ñ,
+ squid:MethodCyclomaticComplexity
+"ZThe Cyclomatic Complexity of this method "main" is 13 which is greater than 10 authorized.(Çµí‘8ûîÉ™Ñ,
+ysquid:S2159/"VRemove this call to "equals"; comparisons between unrelated types always return false.(Î‡®şüÿÿÿÿ8ß‘ç™Ñ,
+nsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÚğ
+Rsquid:S1066Y"/Merge this if statement with the enclosing one.(â‰—šşÿÿÿÿ8ôÅØşĞ,
+nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ˆÁİ´øÿÿÿÿ8ÇÈí™Ñ,
+ysquid:S2159/"VRemove this call to "equals"; comparisons between unrelated types always return false.(Î‡®şüÿÿÿÿ8æ–Ñ™Ñ,
+nsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(µËÓêşÿÿÿÿ8Â•şĞ,
+Y
+squid:S106ƒ";Replace this usage of System.out or System.err by a logger.(í¸˜—8´™òöĞ,

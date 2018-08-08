@@ -1,0 +1,23 @@
+
+3squid:S1643\"Use a StringBuilder instead.(íâÍ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡‡„
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°‹˜ê
+Isquid:S1199L"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+gsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(­ç§õÿÿÿÿÿ
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÚÆŠ€
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(‹°ÄÃ
+Q
+squid:S106/";Replace this usage of System.out or System.err by a logger.(‹°ÄÃ
+Q
+squid:S106C";Replace this usage of System.out or System.err by a logger.(‹°ÄÃ
+Q
+squid:S106W";Replace this usage of System.out or System.err by a logger.(‹°ÄÃ
+P
+squid:S106b";Replace this usage of System.out or System.err by a logger.(ƒÚáB
+Nsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+† squid:MethodCyclomaticComplexity"ZThe Cyclomatic Complexity of this method "main" is 15 which is greater than 10 authorized.(Çµí‘
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(›ÈÕÿÿÿÿÿ
+osquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÁÂéÈ

@@ -1,0 +1,24 @@
+package Assign;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	static int fibonacci(int k)
+	{
+		if(k==0)
+	}
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("enter the range");
+		int n=input.nextInt();
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package StringPkg;
+
+import java.util.Scanner;
+import java.lang.*;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	Scanner input=new Scanner(System.in);
+	System.out.println("enter string");
+	java.lang.String str=input.next();
+	
+	
+		
+		
+
+	}
+
+}

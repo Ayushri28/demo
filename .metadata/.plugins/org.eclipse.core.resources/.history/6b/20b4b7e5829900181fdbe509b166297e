@@ -1,0 +1,30 @@
+package Training;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Freq {
+
+	public static void main(String[] args) {
+		
+		
+	Scanner input=new Scanner(System.in); 
+		
+		String str=input.next();
+		
+		HashMap<String, Integer> map=new HashMap<String,Integer>();
+		
+		for(int i=0; i<str.length(); i++)
+		{
+			int j=i+3;
+			if(str.substring(i, j).equals(str.substring(j, j+3)))
+			{
+				
+			}
+			
+			
+		}
+
+	}
+
+}

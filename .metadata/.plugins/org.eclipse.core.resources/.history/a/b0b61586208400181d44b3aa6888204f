@@ -1,0 +1,18 @@
+package Assign;
+
+public class Localvar {
+
+	 int var=20;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int var=30;
+		Localvar obj= new Localvar();
+		System.out.println(var);
+		System.out.println(this.var);
+
+	}
+
+}

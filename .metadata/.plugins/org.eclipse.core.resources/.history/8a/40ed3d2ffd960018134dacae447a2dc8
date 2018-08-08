@@ -1,0 +1,10 @@
+package Selenium.M1046899;
+
+public class SeleniumTools {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

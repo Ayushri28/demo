@@ -1,0 +1,35 @@
+package Selenium.M1046899;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+
+public class SeleniumTest {
+
+	static WebDriver driver;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String path="C:\\Users\\M1046899\\Downloads\\chromedriver_win32\\chromedriver.exe";//saving the path of chrome in string
+		System.setProperty("webdriver.chrome.driver", path);
+		driver=new ChromeDriver();
+		//driver.get("https://www.google.com/");
+		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.flipkart.com/mobile-phones-store?otracker=nmenu_sub_Electronics_0_Mobiles");
+		
+		//Actions actions = new Actions(driver);
+		driver.findElement(By.xpath("//button[@class='_2AkmmA _29YdH8']")).click();
+		//WebElement mobile=driver.findElement(By.linkText("Electronics"));
+		//actions.moveToElement(mobile);
+		//actions.moveToElement(mobile).moveToElement(driver.findElement(By.xpath("//span[@class='_1QZ6fC _3Lgyp8']"))).click().build().perform();
+       // driver.findElement(By.xpath("//span[@class='1QZ6fC _3Lgyp8']")).click();
+	//	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("mobile");
+		driver.findElement(By.xpath("//span[@class='1QZ6fC _3Lgyp8']")).click();
+		//driver.findElement(By.xpath("//button[@class='vh79eN']")).click();
+		//driver.findElement(By.xpath("//p[@class='yHn1qE']")).click();
+	}
+
+}

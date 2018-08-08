@@ -1,0 +1,23 @@
+package Automation;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+@BeforeSuit
+public class Test {
+	
+  
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 WebDriver driver;
+		String path="C:\\Users\\M1046899\\Downloads\\chromedriver_win32\\chromedriver.exe";//saving the path of chrome in string
+		System.setProperty("webdriver.chrome.driver", path);
+		driver=new ChromeDriver();
+		//driver.get("https://www.google.co.in/");
+		
+		driver.get("https://store.demoqa.com/");
+	  
+
+	}
+
+}

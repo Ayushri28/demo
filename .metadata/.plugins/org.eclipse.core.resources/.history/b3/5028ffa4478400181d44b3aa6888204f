@@ -1,0 +1,42 @@
+package Assign;
+
+public class Arrayobj1 {
+	int roll;
+	String name="";
+	
+	void setroll(int roll)
+	{
+		this.roll=roll;
+		
+	}
+	void setname(String name)
+	{
+		this.name=name;
+		
+	}
+	
+	int getroll()
+	{
+		return roll;
+	}
+	String getname()
+	{
+		return name;
+	}
+
+	public static void main(String[] args) {
+		
+		Arrayobj1[] ob=new Arrayobj1[3];
+		ob[0]=new Arrayobj1();
+		ob[0].setroll(1);
+		ob[0].setname("Ayushi");
+		System.out.println("displaying result");
+		System.out.println("roll" + ob[0].getroll());
+		System.out.println(" name " + ob[0].getname());
+		
+		
+		
+
+	}
+
+}

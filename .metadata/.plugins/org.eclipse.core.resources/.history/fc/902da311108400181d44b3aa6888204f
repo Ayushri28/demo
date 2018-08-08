@@ -1,0 +1,28 @@
+package Assign;
+
+class Classobj1
+{
+	
+	void disp()
+	{
+		System.out.println("parent class called" );
+	}
+}
+public class Classobj2 extends Classobj1 {
+	void disp()
+	{
+		System.out.println("child class called" );
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Classobj c1= new Classobj();
+		c1.disp();
+		
+		Classobj2 c2= (Classobj) c1;
+		c2.disp();
+	}
+
+}
